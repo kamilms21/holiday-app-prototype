@@ -1,0 +1,30 @@
+
+.loader {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+  background-color: gainsboro;
+}
+@keyframes spinner {
+  0% { transform: rotate(0); }
+  100% { transform: rotate(360deg); }
+}
+
+// .loader__image::after {
+//   content: '';
+//   position: absolute;
+//   top: (10px);
+//   left: (10px);
+//   width: (80px);
+//   height: (80px);
+//   border-radius: 50%;
+//   background: red;
+// }
+
+.loader__image {
+  animation: spinner 1.2s linear infinite;
+  height: 6rem;
+  width: 6rem;
+}

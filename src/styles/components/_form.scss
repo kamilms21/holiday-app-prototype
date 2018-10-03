@@ -1,0 +1,85 @@
+.formContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.loginForm {
+  width: 100%;
+}
+
+
+.form {
+  width: 50%;
+  >* {
+    margin-bottom: $m-size;
+  }
+  margin-top: 25px;
+}
+
+.form input {
+ border: 1px solid #cacccd
+}
+
+.form__error {
+  margin: 0 0 $m-size 0;
+  font-style: italic;
+}
+
+.selects select {
+  padding: 12px;
+  border: 1px solid #cacccd;
+}
+
+.closeModal {
+position: absolute;
+top: 10px;
+right: 10px;
+}
+
+.formContainer > form > input, button {
+  display: block;
+}
+
+.location-search-input {
+  width: 100%;
+  height: 50px;
+  border: 2px solid gray;
+  border-radius: 2px;
+  padding: 1.2rem;
+}
+
+.selects select {
+  width: 45%;
+}
+.selects {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form input[type="file"] {
+  padding: 12px;
+}
+
+.dealImages {
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+
+.dealImages img {
+  width: 100%;
+  overflow: visible;
+  transform: translateX(0%);
+}
+
+.amount-filter-form {
+  display: flex;
+  font-size: 13px;
+  margin-top: 2px;
+}
+
+.DateInput {
+  padding: 3px!important;
+  height: 38px!important;
+}

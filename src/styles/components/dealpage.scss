@@ -1,0 +1,76 @@
+.content-container {
+    display: flex;
+    justify-content: center;
+}
+
+.dealPage_info {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e8e8e8;
+    font-size: 1.2rem;
+    position: relative;
+    align-items: center;
+}
+
+
+.dealPage_info span {
+   margin: 10px;
+}
+
+.dealPage_info div {
+    top: 4px;
+ }
+
+.dealPage_content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.dealPage_desc {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.dealPage_desc * {
+    font-size: 15px!important;
+    background-color: transparent!important;
+}
+
+.dealPage_desc p {
+    margin: 0;
+}
+
+.dealpage__img {
+    width: auto;
+    max-height: 500px;
+}
+
+.deal-page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eeeeee;
+    max-width: 950px;
+    padding-bottom: 30px;
+    perspective: 1000px;
+    margin-top: 12px;
+}
+
+
+.dealPage_pound {
+    font-weight: bold;
+    margin-left: 2px!important;
+}
+
+.dealPage_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+

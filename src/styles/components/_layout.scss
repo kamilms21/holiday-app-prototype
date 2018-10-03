@@ -1,0 +1,300 @@
+#app {
+    background-color: #f3f3f3;
+}
+
+.main_content {
+    display: flex;
+}
+
+.deal__body {
+width: 100%;
+}
+
+.sidebar_right {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    min-height: 600px;
+    justify-content: space-between;
+    transform: translateX(0%);
+    z-index: 2;
+    background: linear-gradient(#e2e2e2, #f3f3f3);
+}
+
+.sidebar_right input {
+    background-color: #efeeee;
+}
+
+.sidebar_right select {
+    background-color: #efeeee;
+    padding: 9px;
+}
+
+.sidebar_right .ui.input>input {
+background-color: #efeeee
+}
+
+.sidebar_right .DateRangePickerInput, .DateInput {
+    background-color: #efeeee!important;
+}
+
+.sidebar_right .ui.animated.button {
+    background-color: #cdcdcd;
+}
+
+.filter__handler {
+    display: none;
+}
+
+.list-body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ui .segment .header {
+    background-color: #e0e1e2;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+
+.infoBox {
+    cursor: pointer!important;
+    width: auto !important;
+    margin-top: -78px;
+    overflow: unset !important;
+    margin-left: -16px;
+    background-color: rgb(255, 255, 255) !important;
+box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px 0px !important;
+border-width: 1px !important;
+border-style: solid !important;
+border-color: rgba(0, 0, 0, 0.2) !important;
+border-image: initial !important;
+border-radius: 2px !important;
+padding: 4px 5px 4px 6px !important;
+z-index: -999!important;
+}
+
+.infoBox::before {
+    content: '';
+    bottom: -4px !important;
+    left: 50% !important;
+    margin-left: -4px !important;
+    background-color: rgb(255, 255, 255) !important;
+    width: 8px !important;
+    height: 8px !important;
+    transform: rotate(45deg) !important;
+    position: absolute !important;
+    border-color: rgba(0, 0, 0, 0.2) !important;
+    border-style: solid !important;
+    border-width: 0px 1px 1px 0px !important;
+}
+
+
+.infoBox > img {
+  display: none;
+}
+
+.editor {
+    border: 2px solid black;
+    
+}
+
+
+.collapsedBox {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.infoBox__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoBox__content h2, p {
+    margin: 0;
+    padding: 6px;
+    word-wrap: break-word;
+}
+
+.infoBox__rating {
+    top: 0px;
+    left: 10px;
+    position: absolute;
+}
+
+.DateRangePickerInput__arrow {
+    display: none!important;
+}
+
+.socialIcons {
+    display: flex;
+    margin-top: 30px;
+
+    & svg {
+        flex: 1;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        
+        &:hover {
+            color: black;
+        }
+    }
+}
+
+
+  
+  .TopRatedDeal {
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+  }
+ 
+  .TopRatedDeal__header  {
+    position: relative;
+    width: 100%;
+}
+.TopRatedDeal__header p {
+width: 100%;
+overflow: hidden;
+}
+
+.slider_wrapper {
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.myaccount__avatar {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.bottom-sidebar {
+    margin-bottom: 90px;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.signInContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.myaccount__deal {
+    display: flex;
+}
+
+.myaccount__deal-actions {
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+
+    & button{
+        width: 127px;
+    }
+}
+
+footer {
+    display: flex!important;
+    flex-direction: column;
+    height: auto;
+    background: rgb(244,152,46); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(244,152,46,1) 0%, rgba(249,198,103,1) 33%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(244,152,46,1) 0%,rgba(249,198,103,1) 33%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(244,152,46,1) 0%,rgba(249,198,103,1) 33%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4982e', endColorstr='#f9c667',GradientType=0 ); /* IE6-9 */
+}
+
+footer form {
+    padding-right: 20px;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 35px;
+    background-color: black;
+    color: gainsboro;
+    margin-top: 20px;
+    padding: 6px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+.about__description {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    margin-top: -50px;
+    padding: 0 30px;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+
+.contact .ui.button {
+    float: right;
+}
+
+
+.about {
+display: flex;
+justify-content: center;
+margin-top: 50px;
+flex-wrap: wrap;
+}
+
+.img_about1 {
+transform: rotate(4deg);
+margin-right: 50px;
+}
+
+.img_about2 {
+    transform: rotate(-4deg);
+    margin-right: 50px;
+}
+
+.img_about3 {
+    transform: rotate(4deg);
+}
+
+.DraftEditor-root {
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.rdw-text-align-dropdown {
+    z-index: 0;
+}
+
+.rdw-list-dropdown {
+    z-index: 0;
+}
